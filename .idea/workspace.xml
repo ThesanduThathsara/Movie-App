@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="bug fixing">
+    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="change the tab bar width">
       <change afterPath="$PROJECT_DIR$/assets/constants/icons.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/constants/images.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/icons/arrow.png" afterDir="false" />
@@ -13,7 +13,6 @@
       <change afterPath="$PROJECT_DIR$/assets/icons/person.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/icons/play.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/icons/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/search.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/icons/star.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/bg.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/highlight.png" afterDir="false" />
@@ -22,7 +21,7 @@
       <change afterPath="$PROJECT_DIR$/assets/interfaces/interfaces.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/types/images.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(windows)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(windows)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "error-correction",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Thesandu/WebstormProjects/final-coursework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\Thesandu\\WebstormProjects\\final-coursework\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;error-correction&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Thesandu/WebstormProjects/final-coursework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Thesandu\\WebstormProjects\\final-coursework\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -124,7 +123,8 @@
       <workItem from="1756475736359" duration="220000" />
       <workItem from="1756479916389" duration="1610000" />
       <workItem from="1756900103055" duration="3085000" />
-      <workItem from="1756982987053" duration="16738000" />
+      <workItem from="1756982987053" duration="17487000" />
+      <workItem from="1757254741544" duration="3956000" />
     </task>
     <task id="LOCAL-00001" summary="reset the project">
       <option name="closed" value="true" />
@@ -198,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757077253070</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change the tab bar width">
+      <option name="closed" value="true" />
+      <created>1757078425008</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757078425008</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +220,7 @@
     <MESSAGE value="create a component" />
     <MESSAGE value="create the tab bar" />
     <MESSAGE value="bug fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixing" />
+    <MESSAGE value="change the tab bar width" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the tab bar width" />
   </component>
 </project>
