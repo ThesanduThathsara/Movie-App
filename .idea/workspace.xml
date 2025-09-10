@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="add assets">
+    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="change the name and img icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(windows)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <workItem from="1756479916389" duration="1610000" />
       <workItem from="1756900103055" duration="3085000" />
       <workItem from="1756982987053" duration="17487000" />
-      <workItem from="1757254741544" duration="12531000" />
+      <workItem from="1757254741544" duration="15823000" />
     </task>
     <task id="LOCAL-00001" summary="reset the project">
       <option name="closed" value="true" />
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757322328828</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change the name and img icon">
+      <option name="closed" value="true" />
+      <created>1757424066674</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757424066674</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +225,7 @@
     <MESSAGE value="bug fixing" />
     <MESSAGE value="change the tab bar width" />
     <MESSAGE value="add assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="add assets" />
+    <MESSAGE value="change the name and img icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the name and img icon" />
   </component>
 </project>
