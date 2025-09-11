@@ -104,6 +104,4 @@ const _layout = () => {
     );
 };
 
-const styles = StyleSheet.create({});
-
 export default _layout;
