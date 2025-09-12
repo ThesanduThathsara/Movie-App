@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="error correction">
+    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="add movie release year">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MovieCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(windows)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,8 @@
       <workItem from="1756900103055" duration="3085000" />
       <workItem from="1756982987053" duration="17487000" />
       <workItem from="1757254741544" duration="25283000" />
-      <workItem from="1757594759588" duration="10674000" />
+      <workItem from="1757594759588" duration="17707000" />
+      <workItem from="1757671689919" duration="4920000" />
     </task>
     <task id="LOCAL-00001" summary="reset the project">
       <option name="closed" value="true" />
@@ -282,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757609027827</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add movie release year">
+      <option name="closed" value="true" />
+      <created>1757610575345</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1757610575345</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +317,7 @@
     <MESSAGE value="error fix" />
     <MESSAGE value="add movie-card to the home section" />
     <MESSAGE value="error correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="error correction" />
+    <MESSAGE value="add movie release year" />
+    <option name="LAST_COMMIT_MESSAGE" value="add movie release year" />
   </component>
 </project>
