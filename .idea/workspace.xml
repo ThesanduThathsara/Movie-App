@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="add movie release year">
+    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="reformat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(windows)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <workItem from="1756982987053" duration="17487000" />
       <workItem from="1757254741544" duration="25283000" />
       <workItem from="1757594759588" duration="17707000" />
-      <workItem from="1757671689919" duration="4920000" />
+      <workItem from="1757671689919" duration="9129000" />
     </task>
     <task id="LOCAL-00001" summary="reset the project">
       <option name="closed" value="true" />
@@ -292,7 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757610575345</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="create the layout of search tab">
+      <option name="closed" value="true" />
+      <created>1757689353931</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1757689353931</updated>
+    </task>
+    <task id="LOCAL-00024" summary="reformat">
+      <option name="closed" value="true" />
+      <created>1757692252074</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1757692252074</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,12 +327,13 @@
     <MESSAGE value="add background image and logo" />
     <MESSAGE value="create search component" />
     <MESSAGE value="redirect to search" />
-    <MESSAGE value="reformat" />
     <MESSAGE value="update" />
     <MESSAGE value="error fix" />
     <MESSAGE value="add movie-card to the home section" />
     <MESSAGE value="error correction" />
     <MESSAGE value="add movie release year" />
-    <option name="LAST_COMMIT_MESSAGE" value="add movie release year" />
+    <MESSAGE value="create the layout of search tab" />
+    <MESSAGE value="reformat" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformat" />
   </component>
 </project>
