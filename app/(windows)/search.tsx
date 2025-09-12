@@ -13,57 +13,58 @@ const search = () => {
     const router = useRouter();
 
     const {
-        data:movies,
+        data: movies,
         loading,
-        error}=useFetch(()=>fetchMovies({query:''}
+        error
+    } = useFetch(() => fetchMovies({query: ''}
     ))
-  return (
-    <View className="flex-1 bg-black">
-      <Image source={images.bg} className="flex-1 absolute w-full z-0" resizeMode={"cover"}/>
+    return (
+        <View className="flex-1 bg-black">
+            <Image source={images.bg} className="flex-1 absolute w-full z-0" resizeMode={"cover"}/>
 
-        <FlatList
-            data={movies} renderItem={({item})=><MovieCard{...item}/>}
-            keyExtractor={(item)=>item.id.toString()}
-            className="px-5"
-            numColumns={3}
-            columnWrapperStyle={{
-                justifyContent:'center',
-                gap:16,
-                marginVertical:16
-            }}
-            contentContainerStyle={{paddingBottom:100}}
-            ListHeaderComponent={   /*render in the top of all the items*/
-                <>
-                    <View className="w-full flex-row justify-center mt-20 items-center">
-                        <Image source={icons.logo} className="w-12 h-10"/>
+            <FlatList
+                data={movies} renderItem={({item}) => <MovieCard{...item}/>}
+                keyExtractor={(item) => item.id.toString()}
+                className="px-5"
+                numColumns={3}
+                columnWrapperStyle={{
+                    justifyContent: 'center',
+                    gap: 16,
+                    marginVertical: 16
+                }}
+                contentContainerStyle={{paddingBottom: 100}}
+                ListHeaderComponent={   /*render in the top of all the items*/
+                    <>
+                        <View className="w-full flex-row justify-center mt-20 items-center">
+                            <Image source={icons.logo} className="w-12 h-10"/>
 
-                    </View>
+                        </View>
 
-                    <View className="my-5">
-                        <SearchBar placeholder="Search movies..."/>
-                    </View>
+                        <View className="my-5">
+                            <SearchBar placeholder="Search movies..."/>
+                        </View>
 
-                    {loading && (
-                        <ActivityIndicator size="large" color="#0000ff" className="my-3"/>
-                    )}
+                        {loading && (
+                            <ActivityIndicator size="large" color="#0000ff" className="my-3"/>
+                        )}
 
-                    {error &&(
-                        <Text className="text-red-500 px-5 my-3">
-                            Error: {error.message}
-                        </Text>
-                    )}
+                        {error && (
+                            <Text className="text-red-500 px-5 my-3">
+                                Error: {error.message}
+                            </Text>
+                        )}
 
-                    {!loading && !error && 'SEARCH TERM'.trim() && movies?.length > 0 &&(
-                        <Text className="text-xl text-white font-bold">
-                            Search result for{' '}
-                            <Text className="text-violet-400">Search Term</Text>
-                        </Text>
-                    )}
-                </>
-            }
-        />
-    </View>
-  );
+                        {/*{!loading && !error && 'SEARCH TERM'.trim() && movies?.length > 0 &&(*/}
+                        {/*    <Text className="text-xl text-white font-bold">*/}
+                        {/*        Search result for{' '}*/}
+                        {/*        <Text className="text-violet-400">Search Term</Text>*/}
+                        {/*    </Text>*/}
+                        {/*)}*/}
+                    </>
+                }
+            />
+        </View>
+    );
 };
 
 export default search;
