@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="reformat">
+    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="add search function">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(windows)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,7 @@
       <workItem from="1756982987053" duration="17487000" />
       <workItem from="1757254741544" duration="25283000" />
       <workItem from="1757594759588" duration="17707000" />
-      <workItem from="1757671689919" duration="9129000" />
+      <workItem from="1757671689919" duration="10351000" />
     </task>
     <task id="LOCAL-00001" summary="reset the project">
       <option name="closed" value="true" />
@@ -307,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757692252074</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add search function">
+      <option name="closed" value="true" />
+      <created>1757694718939</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1757694718939</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +344,7 @@
     <MESSAGE value="add movie release year" />
     <MESSAGE value="create the layout of search tab" />
     <MESSAGE value="reformat" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformat" />
+    <MESSAGE value="add search function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add search function" />
   </component>
 </project>
